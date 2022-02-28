@@ -1,0 +1,251 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+body {
+    background: url(/bg-wrapper-sub.jpg) no-repeat center top;
+    background-size:cover
+}
+.icons-bt-hotline {
+    position: relative;
+    display: block;
+    margin: -4px 0 0 -22px;
+    text-indent: -9999px;
+    background-image: url(/icons-s4c0b768865.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1117px;
+    height:90px;
+    width: 100%;
+}
+
+.Social {
+    background: url(/bg-facebook.png) no-repeat center 0;
+    height: 189px;
+}
+
+.icons-bt-hotro {
+    position: relative;
+    display: block;
+    margin: -33px 0 0 -15px;
+    text-indent: -9999px;
+    background-image: url(/icons-s4c0b768865.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1290px;
+    height: 89px;
+    width: 270px;
+}
+
+.ChoiNgay_new {
+    text-indent: -9999px;
+    display: block;
+    height: 175px;
+    width: 313px;
+    background: url(/choingay.png);
+    margin-left: -44px;
+}
+body .container-fluid .row{
+    margin-top:10px;
+}
+.top-banner {
+    height: 130px;
+    background: url(/bg-nav.png) no-repeat center 0px;
+}
+.navbar-brand{
+    padding:68px;
+}
+.NavTop {
+    width: 100%;
+    position: relative;
+}
+    .NavTop ul.List_Menu {
+        list-style: none;
+        margin: 0;
+        padding: 68px 0 0px 42px;
+    }
+        .NavTop ul.List_Menu li {
+            list-style: none;
+            float: left;
+            padding-right: 5px;
+            position: relative;
+        }
+            .NavTop ul.List_Menu li a {
+                display: block;
+                width: 120px;
+                line-height: 55px;
+                font-size: 16px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #541d00;
+                font-weight: bold;
+                text-shadow: 0.5px 0.866px 0px rgb(251 215 22 / 69%);
+                font-family: 'Gluten', cursive;
+            }
+            .NavTop ul.List_Menu li.Space {
+                width: 200px;
+                display: block;
+                height: 1px;
+            }
+.NavTop ul.List_Menu li {
+    list-style: none;
+    float: left;
+    padding-right: 5px;
+    position: relative;
+}
+
+
+.NavTop ul.List_Menu li a {
+    display: block;
+    width: 120px;
+    line-height: 55px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #541d00;
+    font-weight: bold;
+    text-shadow: 0.5px 0.866px 0px rgb(251 215 22 / 69%);
+    font-family: 'Gluten', cursive;
+}
+    .NavTop ul.List_Menu li ul.Sub_Nav {
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ec700b;
+        padding: 10px;
+        margin: 0;
+        -webkit-border-bottom-right-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+        -moz-border-radius-bottomright: 20px;
+        -moz-border-radius-bottomleft: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: solid 5px rgba(106, 22, 1, 0.7);
+        border-top: none;
+        z-index:10000000000;
+        display:none
+    }
+a {
+    text-decoration: none !important;
+}
+.NavTop ul.List_Menu li ul.Sub_Nav li a:hover {
+    color: #f9fe24;
+    background: none;
+    text-decoration: none;
+}
+.NavTop ul.List_Menu li a:hover {
+    text-decoration: none;
+    color: #fbe3b0;
+    text-shadow: none;
+}
+
+/* line 116, ../sass/page/_main.scss */
+.NavTop ul.List_Menu li.active a {
+    color: #fbe3b0;
+    text-shadow: none;
+    /* background: url('/5035.png_860.png') no-repeat 0 12px;*/
+}
+/* line 122, ../sass/page/_main.scss */
+.NavTop ul.List_Menu li.on-hover > a {
+    text-decoration: none;
+    color: #fbe3b0;
+    text-shadow: none;
+    /*   background: url('/5035.png_860.png') no-repeat 0 12px;
+    */
+}
+
+.NavTop ul.List_Menu li:hover ul.Sub_Nav, .NavTop ul.List_Menu .owl-dots li.owl-dot.active ul.Sub_Nav, .owl-dots .NavTop ul.List_Menu li.owl-dot.active ul.Sub_Nav {
+    display: block;
+}
+a:hover, input:hover, select:hover, button:hover {
+    cursor: url('http://subvip79.com/giaodien/hover.cur'), auto;
+}
+body {
+    cursor: url('http://subvip79.com/giaodien/arrow.cur'), auto;
+}
+
+/*
+.canvasjs-chart-panel .canvasjs-chart-container  > canvas {
+   
+}*/
+#chartContainer .canvasjs-stock-container .canvasjs-chart-canvas {
+    border-radius: 10px;
+}
+#chartContainer {
+    border-radius: 10px;
+    border: 2px brown solid;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    .NavTop{
+        display:none;
+    }
+    /* Regular CSS rules here*/
+
+}
